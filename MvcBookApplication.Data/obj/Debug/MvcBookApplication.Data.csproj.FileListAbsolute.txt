@@ -1,0 +1,14 @@
+C:\projects\MvcBookApplication\MvcBookApplication.Data\bin\Debug\MvcBookApplication.Data.dll
+C:\projects\MvcBookApplication\MvcBookApplication.Data\bin\Debug\MvcBookApplication.Data.pdb
+C:\projects\MvcBookApplication\MvcBookApplication.Data\bin\Debug\MvcBookApplication.Validation.dll
+C:\projects\MvcBookApplication\MvcBookApplication.Data\bin\Debug\MvcBookApplication.Validation.pdb
+C:\projects\MvcBookApplication\MvcBookApplication.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\MvcBookApplication\MvcBookApplication.Data\obj\Debug\MvcBookApplication.Data.dll
+C:\projects\MvcBookApplication\MvcBookApplication.Data\obj\Debug\MvcBookApplication.Data.pdb
+L:\projects\MvcBookApplication\MvcBookApplication.Data\bin\Debug\MvcBookApplication.Data.dll
+L:\projects\MvcBookApplication\MvcBookApplication.Data\bin\Debug\MvcBookApplication.Data.pdb
+L:\projects\MvcBookApplication\MvcBookApplication.Data\bin\Debug\MvcBookApplication.Validation.dll
+L:\projects\MvcBookApplication\MvcBookApplication.Data\bin\Debug\MvcBookApplication.Validation.pdb
+L:\projects\MvcBookApplication\MvcBookApplication.Data\obj\Debug\ResolveAssemblyReference.cache
+L:\projects\MvcBookApplication\MvcBookApplication.Data\obj\Debug\MvcBookApplication.Data.dll
+L:\projects\MvcBookApplication\MvcBookApplication.Data\obj\Debug\MvcBookApplication.Data.pdb

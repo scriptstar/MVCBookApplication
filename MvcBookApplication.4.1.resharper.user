@@ -1,0 +1,686 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="userid" priority="5" />
+      <Item value="var" priority="67" />
+      <Item value="try" priority="0" />
+      <Item value="ValidationException" priority="3" />
+      <Item value="errors" priority="3" />
+      <Item value="e" priority="5" />
+      <Item value="foreach" priority="2" />
+      <Item value="contactError" priority="2" />
+      <Item value="contact" priority="5" />
+      <Item value="null" priority="14" />
+      <Item value="string" priority="38" />
+      <Item value="if" priority="9" />
+      <Item value="emailExistsError" priority="0" />
+      <Item value="contactErrors" priority="0" />
+      <Item value="continue" priority="0" />
+      <Item value="new" priority="70" />
+      <Item value="InMemoryContactService" priority="1" />
+      <Item value="InMemoryContactRepository" priority="1" />
+      <Item value="Mocks" priority="0" />
+      <Item value="ValidationRunner" priority="0" />
+      <Item value="mockRunner" priority="4" />
+      <Item value="v" priority="3" />
+      <Item value="Contact" priority="2" />
+      <Item value="Email" priority="1" />
+      <Item value="List&lt;ValidationError&gt;" priority="1" />
+      <Item value="service" priority="7" />
+      <Item value="Guid" priority="1" />
+      <Item value="repository" priority="2" />
+      <Item value="Action" priority="1" />
+      <Item value="AssemblyResolverAttribute" priority="1" />
+      <Item value="Assert" priority="31" />
+      <Item value="exception" priority="1" />
+      <Item value="throw" priority="0" />
+      <Item value="User" priority="23" />
+      <Item value="UserId" priority="12" />
+      <Item value="contact2" priority="1" />
+      <Item value="Mock" priority="4" />
+      <Item value="IContactRepository" priority="0" />
+      <Item value="mockRepo" priority="8" />
+      <Item value="r" priority="13" />
+      <Item value="Repository" priority="7" />
+      <Item value="ValidationError" priority="0" />
+      <Item value="else" priority="0" />
+      <Item value="Username" priority="16" />
+      <Item value="mockService" priority="7" />
+      <Item value="parsedContacts" priority="2" />
+      <Item value="List" priority="4" />
+      <Item value="s" priority="9" />
+      <Item value="contactsWithUser" priority="0" />
+      <Item value="username" priority="12" />
+      <Item value="repo" priority="2" />
+      <Item value="c" priority="1" />
+      <Item value="user" priority="0" />
+      <Item value="Bind" priority="6" />
+      <Item value="IParserFactory" priority="0" />
+      <Item value="ParserFactory" priority="0" />
+      <Item value="tst" priority="35" />
+      <Item value="con" priority="16" />
+      <Item value="result" priority="15" />
+      <Item value="act" priority="10" />
+      <Item value="return" priority="35" />
+      <Item value="PayController" priority="1" />
+      <Item value="IPaymentService" priority="2" />
+      <Item value="ctx" priority="0" />
+      <Item value="ctor" priority="12" />
+      <Item value="this" priority="4" />
+      <Item value="MyMocks" priority="9" />
+      <Item value="PaymentService" priority="0" />
+      <Item value="Request" priority="5" />
+      <Item value="itar" priority="0" />
+      <Item value="itdic" priority="0" />
+      <Item value="itli" priority="0" />
+      <Item value="ritar" priority="0" />
+      <Item value="public" priority="6" />
+      <Item value="class" priority="4" />
+      <Item value="HttpWebRequest" priority="0" />
+      <Item value="IPayPalServiceHelper" priority="3" />
+      <Item value="payPalServiceHelper" priority="0" />
+      <Item value="PayPalServiceHelper" priority="1" />
+      <Item value="helper" priority="0" />
+      <Item value="h" priority="1" />
+      <Item value="Uri" priority="0" />
+      <Item value="mockRequest" priority="1" />
+      <Item value="RepeatAttribute" priority="0" />
+      <Item value="Version" priority="0" />
+      <Item value="mockHelper" priority="1" />
+      <Item value="PayPalService" priority="1" />
+      <Item value="requestcontent" priority="2" />
+      <Item value="Convert" priority="0" />
+      <Item value="mockPaypalRequest" priority="0" />
+      <Item value="StringWriter" priority="0" />
+      <Item value="StreamWriter" priority="1" />
+      <Item value="WebResponse" priority="0" />
+      <Item value="mockPaypalResponse" priority="0" />
+      <Item value="NameValueCollection" priority="0" />
+      <Item value="payerEmail" priority="0" />
+      <Item value="formCollection" priority="0" />
+      <Item value="routeResult" priority="0" />
+      <Item value="ISubscriptionPlanRepository" priority="1" />
+      <Item value="SingletonBehavior" priority="2" />
+      <Item value="SubscriptionPlans" priority="3" />
+      <Item value="List&lt;SubscriptionPlan&gt;" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="2" />
+      <Item value="Linq" priority="0" />
+      <Item value="p" priority="0" />
+      <Item value="existingPlan" priority="5" />
+      <Item value="SubscriptionPlan" priority="0" />
+      <Item value="email" priority="0" />
+      <Item value="plan" priority="0" />
+      <Item value="AutoId" priority="3" />
+      <Item value="subscriptionPlan" priority="0" />
+      <Item value="int" priority="10" />
+      <Item value="FileContentResult" priority="2" />
+      <Item value="typeof" priority="5" />
+      <Item value="as" priority="5" />
+      <Item value="fileContent" priority="3" />
+      <Item value="File" priority="2" />
+      <Item value="Server" priority="0" />
+      <Item value="IO" priority="1" />
+      <Item value="const" priority="0" />
+      <Item value="CONTENT_PATH" priority="0" />
+      <Item value="messageAudit" priority="16" />
+      <Item value="prop" priority="6" />
+      <Item value="void" priority="0" />
+      <Item value="messageAuditService" priority="0" />
+      <Item value="IMessageAuditService" priority="0" />
+      <Item value="MessageAudit" priority="0" />
+      <Item value="MessageId" priority="1" />
+      <Item value="CreatedOn" priority="0" />
+      <Item value="MessageAuditService" priority="0" />
+      <Item value="TrackerController" priority="0" />
+      <Item value="Redirect" priority="0" />
+      <Item value="RedirectResult" priority="4" />
+      <Item value="redirectResult" priority="1" />
+      <Item value="Url" priority="1" />
+      <Item value="RedirectToAction" priority="1" />
+      <Item value="RedirectToRouteResult" priority="0" />
+      <Item value="Description" priority="0" />
+      <Item value="tst2" priority="4" />
+      <Item value="Ignore" priority="0" />
+      <Item value="ext" priority="1" />
+      <Item value="bool" priority="3" />
+      <Item value="static" priority="0" />
+      <Item value="true" priority="1" />
+      <Item value="HttpVerbs" priority="0" />
+      <Item value="Message" priority="4" />
+      <Item value="View" priority="4" />
+      <Item value="Html" priority="6" />
+      <Item value="IMessageRepository" priority="1" />
+      <Item value="Kernel" priority="0" />
+      <Item value="m" priority="2" />
+      <Item value="msg" priority="6" />
+      <Item value="oldName" priority="0" />
+      <Item value="ViewData" priority="3" />
+      <Item value="Service" priority="7" />
+      <Item value="message" priority="2" />
+      <Item value="Authorize" priority="4" />
+      <Item value="HandleError" priority="0" />
+      <Item value="Id" priority="2" />
+      <Item value="Name" priority="0" />
+      <Item value="newName" priority="0" />
+      <Item value="Subject" priority="0" />
+      <Item value="Text" priority="0" />
+      <Item value="ValidateAntiForgeryToken" priority="0" />
+      <Item value="ValidateInput" priority="0" />
+      <Item value="false" priority="1" />
+      <Item value="Prefix" priority="0" />
+      <Item value="original" priority="0" />
+      <Item value="Dictionary&lt;string,object&gt;" priority="0" />
+      <Item value="Moq" priority="0" />
+      <Item value="HttpFileCollectionBase" priority="0" />
+      <Item value="mockFiles" priority="0" />
+      <Item value="Resources" priority="3" />
+      <Item value="MemoryStream" priority="1" />
+      <Item value="ms" priority="1" />
+      <Item value="file1" priority="0" />
+      <Item value="file" priority="1" />
+      <Item value="internal" priority="1" />
+      <Item value="interface" priority="0" />
+      <Item value="filename" priority="4" />
+      <Item value="Json" priority="3" />
+      <Item value="InMemoryGalleryRepository" priority="1" />
+      <Item value="stream" priority="2" />
+      <Item value="GalleryFile" priority="5" />
+      <Item value="OriginalFilename" priority="0" />
+      <Item value="Filename" priority="1" />
+      <Item value="private" priority="0" />
+      <Item value="Stream" priority="0" />
+      <Item value="Files" priority="6" />
+      <Item value="List&lt;Stream&gt;" priority="0" />
+      <Item value="GalleryFiles" priority="0" />
+      <Item value="galleryFile" priority="1" />
+      <Item value="Path" priority="1" />
+      <Item value="InMemoryGalleryService" priority="2" />
+      <Item value="IGalleryService" priority="0" />
+      <Item value="object" priority="0" />
+      <Item value="ModelState" priority="0" />
+      <Item value="TempData" priority="0" />
+      <Item value="GalleryController" priority="0" />
+      <Item value="JsonResult" priority="2" />
+      <Item value="jsonResul" priority="1" />
+      <Item value="images" priority="2" />
+      <Item value="IGalleryRepository" priority="0" />
+      <Item value="MockBehavior" priority="0" />
+      <Item value="GetFakeListOfImages" priority="0" />
+      <Item value="f" priority="0" />
+      <Item value="from" priority="0" />
+      <Item value="where" priority="0" />
+      <Item value="img" priority="2" />
+      <Item value="select" priority="0" />
+      <Item value="id" priority="4" />
+      <Item value="Content" priority="0" />
+      <Item value="Dictionary" priority="1" />
+      <Item value="byte" priority="3" />
+      <Item value="bytes" priority="0" />
+      <Item value="IList" priority="6" />
+      <Item value="jsonResult" priority="0" />
+      <Item value="FileResult" priority="1" />
+      <Item value="fileResult" priority="3" />
+      <Item value="ITemplateService" priority="8" />
+      <Item value="Template" priority="12" />
+      <Item value="mockSer" priority="8" />
+      <Item value="Func&lt;IList&lt;Template&gt;&gt;" priority="0" />
+      <Item value="List&lt;Template&gt;" priority="1" />
+      <Item value="InMemoryTemplateService" priority="4" />
+      <Item value="templates" priority="2" />
+      <Item value="ITemplateRepository" priority="0" />
+      <Item value="InMemoryTemplateRepository" priority="0" />
+      <Item value="Model" priority="0" />
+      <Item value="template" priority="3" />
+      <Item value="controller" priority="2" />
+      <Item value="templateService" priority="0" />
+      <Item value="equals" priority="0" />
+      <Item value="JsonResponse" priority="0" />
+      <Item value="success" priority="0" />
+      <Item value="Tempaltes" priority="0" />
+      <Item value="Templates" priority="1" />
+      <Item value="ActionResult" priority="0" />
+      <Item value="TemplateInstanceAttribute" priority="0" />
+      <Item value="t" priority="1" />
+      <Item value="controllerbase" priority="1" />
+      <Item value="name" priority="1" />
+      <Item value="content" priority="1" />
+      <Item value="Thumbnail" priority="0" />
+      <Item value="TextWriter" priority="0" />
+      <Item value="tw" priority="1" />
+      <Item value="Inject" priority="0" />
+      <Item value="Directory" priority="1" />
+      <Item value="HttpServerUtility" priority="1" />
+      <Item value="HttpContext" priority="1" />
+      <Item value="HttpUtility" priority="0" />
+      <Item value="ModelBinders" priority="1" />
+      <Item value="Binder" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="AddRange" priority="1" />
+      <Item value="Count" priority="1" />
+      <Item value="SingleOrDefault" priority="0" />
+      <Item value="AsQueryable" priority="2" />
+      <Item value="Add" priority="4" />
+      <Item value="Where" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Validation.ValidationException">
+      <Item value="ValidationErrors" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Data.Models.Contact">
+      <Item value="Email" priority="5" />
+      <Item value="User" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Validation.ValidationError">
+      <Item value="PropertyName" priority="0" />
+      <Item value="ErrorMessage" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Mock`1">
+      <Item value="Expect" priority="24" />
+      <Item value="VerifyAll" priority="18" />
+      <Item value="Object" priority="14" />
+      <Item value="Verify" priority="1" />
+      <Item value="ExpectSet" priority="0" />
+      <Item value="Setup" priority="0" />
+      <Item value="VerifySet" priority="0" />
+      <Item value="ExpectGet" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Validation.ValidationRunner">
+      <Item value="Run" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Services.InMemoryContactService">
+      <Item value="Import" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Data.InMemoryContactRepository">
+      <Item value="Add" priority="0" />
+      <Item value="Get" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MbUnit.Framework.Assert">
+      <Item value="Throws" priority="1" />
+      <Item value="AreEqual" priority="18" />
+      <Item value="IsNull" priority="0" />
+      <Item value="IsInstanceOfType" priority="5" />
+      <Item value="IsNotNull" priority="3" />
+      <Item value="IsTrue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Validation.IValidationRunner">
+      <Item value="Run" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Language.Flow.IExpect`1">
+      <Item value="Callback" priority="0" />
+      <Item value="Returns" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="Where" priority="3" />
+      <Item value="Count" priority="0" />
+      <Item value="SingleOrDefault" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Data.IContactRepository">
+      <Item value="Add" priority="1" />
+      <Item value="Get" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IPrincipal">
+      <Item value="Identity" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IIdentity">
+      <Item value="Name" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Services.IContactService">
+      <Item value="Import" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Data.Models.User">
+      <Item value="UserId" priority="0" />
+      <Item value="Username" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ninject.Core.Binding.Syntax.IBindingTargetSyntax">
+      <Item value="To" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.HttpVerbs">
+      <Item value="Post" priority="4" />
+      <Item value="Get" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Services.IPaymentService">
+      <Item value="PerformHandShake" priority="1" />
+      <Item value="ProcessPayment" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MvcBookApplication.Tests.MyMocks">
+      <Item value="Request" priority="6" />
+      <Item value="Server" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Controllers.PayController">
+      <Item value="SetFakeControllerContext" priority="0" />
+      <Item value="Request" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequestBase">
+      <Item value="Form" priority="1" />
+      <Item value="ContentLength" priority="0" />
+      <Item value="BinaryRead" priority="0" />
+      <Item value="Files" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Services.IPayPalServiceHelper">
+      <Item value="CreateRequest" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.HttpWebRequest">
+      <Item value="Method" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Language.Flow.IExpectSetter`1">
+      <Item value="Callback" priority="0" />
+      <Item value="Verifiable" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Language.Flow.ICallbackResult">
+      <Item value="Verifiable" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Services.PayPalService">
+      <Item value="PerformHandShake" priority="0" />
+      <Item value="ProcessPayment" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.WebRequest">
+      <Item value="ContentType" priority="0" />
+      <Item value="GetRequestStream" priority="0" />
+      <Item value="GetResponse" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToArray" priority="1" />
+      <Item value="Length" priority="2" />
+      <Item value="ToLowerInvariant" priority="0" />
+      <Item value="ToLower" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.ASCIIEncoding">
+      <Item value="GetBytes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.WebResponse">
+      <Item value="GetResponseStream" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Data.ISubscriptionPlanRepository">
+      <Item value="Save" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ninject.Core.Binding.Syntax.IBindingConditionBehaviorHeuristicComponentOrParameterSyntax">
+      <Item value="Using" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Data.Models.SubscriptionPlan">
+      <Item value="Id" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Controllers.TrackerController">
+      <Item value="DynamicImage" priority="0" />
+      <Item value="SetFakeControllerContext" priority="0" />
+      <Item value="Link" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.FileContentResult">
+      <Item value="FileDownloadName" priority="0" />
+      <Item value="ContentType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpServerUtilityBase">
+      <Item value="MapPath" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="ReadAllBytes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Services.IMessageAuditService">
+      <Item value="Add" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Data.Models.MessageAudit">
+      <Item value="Email" priority="0" />
+      <Item value="MessageId" priority="1" />
+      <Item value="Action" priority="3" />
+      <Item value="Url" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.RedirectResult">
+      <Item value="Url" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ActionResult">
+      <Item value="AssertRedirectToRouteResult" priority="0" />
+      <Item value="AssertViewResult" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper">
+      <Item value="ActionLink" priority="1" />
+      <Item value="ValidationMessage" priority="0" />
+      <Item value="RenderPartial" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ninject.Core.IKernel">
+      <Item value="Get" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Data.IMessageRepository">
+      <Item value="Get" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Data.Models.Message">
+      <Item value="Id" priority="2" />
+      <Item value="Name" priority="2" />
+      <Item value="Html" priority="0" />
+      <Item value="Subject" priority="0" />
+      <Item value="Text" priority="0" />
+      <Item value="User" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ViewDataDictionary">
+      <Item value="Model" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Services.IMessageService">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="Hidden" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ViewDataDictionary`1">
+      <Item value="Model" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Controllers.GalleryController">
+      <Item value="SetFakeControllerContext" priority="0" />
+      <Item value="Upload" priority="0" />
+      <Item value="ModelState" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MvcBookApplication.Tests.Properties.Resources">
+      <Item value="Fish" priority="5" />
+      <Item value="ResourceManager" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Bitmap">
+      <Item value="ToString" priority="0" />
+      <Item value="Save" priority="0" />
+      <Item value="Size" priority="0" />
+      <Item value="GetThumbnailImage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging.ImageFormat">
+      <Item value="Jpeg" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpFileCollectionBase">
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpPostedFileBase">
+      <Item value="FileName" priority="0" />
+      <Item value="InputStream" priority="0" />
+      <Item value="ContentLength" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Services.IGalleryService">
+      <Item value="Upload" priority="2" />
+      <Item value="GetAllImages" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Data.Interfaces.IGalleryRepository">
+      <Item value="Upload" priority="0" />
+      <Item value="GetAllImages" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Data.Models.GalleryFile">
+      <Item value="Id" priority="2" />
+      <Item value="Username" priority="0" />
+      <Item value="Filename" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="GetExtension" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ModelStateDictionary">
+      <Item value="AddModelError" priority="0" />
+      <Item value="AssertErrorMessage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.JsonResult">
+      <Item value="ContentEncoding" priority="0" />
+      <Item value="Data" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="AsQueryable" priority="0" />
+      <Item value="ToList" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="Read" priority="0" />
+      <Item value="Length" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IList">
+      <Item value="Count" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.FileResult">
+      <Item value="ContentType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="Url" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Uri">
+      <Item value="Host" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Count" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Services.ITemplateService">
+      <Item value="GetHashCode" priority="0" />
+      <Item value="Get" priority="3" />
+      <Item value="Save" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Controllers.TemplateController">
+      <Item value="ViewData" priority="0" />
+      <Item value="SetFakeControllerContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Data.Interfaces.ITemplateRepository">
+      <Item value="Get" priority="2" />
+      <Item value="Save" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Data.Models.Template">
+      <Item value="Thumbnail" priority="0" />
+      <Item value="Path" priority="0" />
+      <Item value="Username" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcBookApplication.Controllers.MessageController">
+      <Item value="ViewData" priority="0" />
+      <Item value="TemplateService" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ninject.Core.InlineModule">
+      <Item value="Bind" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.TextWriter">
+      <Item value="Write" priority="0" />
+      <Item value="Close" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="Exists" priority="0" />
+      <Item value="CreateDirectory" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpContext">
+      <Item value="Current" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="Server" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpServerUtility">
+      <Item value="MapPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpUtility">
+      <Item value="HtmlDecode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.ModelBinders">
+      <Item value="Binders" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ModelBinderDictionary">
+      <Item value="DefaultBinder" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="6E52BE98-37BD-4150-A375-CE7F3C5A2A19/d:InMemory/f:InMemoryGalleryRepository.cs" caret="580" scrollPosition="0|0" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:__RESHARPER__DummyWebPages_/f:List.ascx" caret="0" scrollPosition="0|0" />
+      <File id="6E52BE98-37BD-4150-A375-CE7F3C5A2A19/d:Models/f:Template.cs" caret="316" scrollPosition="0|0" />
+      <File id="C2645C5A-2BEC-4E63-BEBB-6BF115831D0A/d:Controllers/f:MessageControllerTests.cs" caret="3558" scrollPosition="0|0" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:Controllers/f:MessageController.cs" caret="492" scrollPosition="0|30" />
+      <File id="098E3598-7C9C-438E-B1F3-67859325BA1F/d:Interfaces/f:ITemplateService.cs" caret="305" scrollPosition="0|0" />
+      <File id="6E52BE98-37BD-4150-A375-CE7F3C5A2A19/d:Interfaces/f:ITemplateRepository.cs" caret="188" scrollPosition="0|0" />
+      <File id="C2645C5A-2BEC-4E63-BEBB-6BF115831D0A/d:Controllers/f:TemplateControllerTests.cs" caret="975" scrollPosition="0|0" />
+      <File id="C2645C5A-2BEC-4E63-BEBB-6BF115831D0A/d:Services/f:TemplateServiceTests.cs" caret="1417" scrollPosition="0|0" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:__RESHARPER__DummyWebPages_/f:jquery-ui-1.7.1.custom.min.js" caret="0" scrollPosition="0|0" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:__RESHARPER__DummyWebPages_/f:jquery.validate.js" caret="34986" scrollPosition="0|0" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:__RESHARPER__DummyWebPages_/f:jquery.wysiwyg.js" caret="3639" scrollPosition="0|79" />
+      <File id="098E3598-7C9C-438E-B1F3-67859325BA1F/d:InMemory/f:InMemoryTemplateService.cs" caret="826" scrollPosition="0|0" />
+      <File id="6E52BE98-37BD-4150-A375-CE7F3C5A2A19/d:InMemory/f:InMemoryTemplateRepository.cs" caret="3090" scrollPosition="0|43" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:Controllers/f:TemplateController.cs" caret="1178" scrollPosition="0|30" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:__RESHARPER__DummyWebPages_/f:Create.aspx" caret="4441" scrollPosition="0|97" />
+      <File id="6E52BE98-37BD-4150-A375-CE7F3C5A2A19/d:InMemory/f:InMemoryContactRepository.cs" caret="0" scrollPosition="0|0" />
+      <File id="C2645C5A-2BEC-4E63-BEBB-6BF115831D0A/d:Helpers/f:ResultAssertions.cs" caret="2074" scrollPosition="0|9" />
+      <File id="C2645C5A-2BEC-4E63-BEBB-6BF115831D0A/d:Controllers/f:PayControllerTests.cs" caret="863" scrollPosition="0|0" />
+      <File id="098E3598-7C9C-438E-B1F3-67859325BA1F/d:Helpers/f:AppHelper.cs" caret="695" scrollPosition="0|0" />
+      <File id="C2645C5A-2BEC-4E63-BEBB-6BF115831D0A/d:Fakes/f:FakeMembershipProvider.cs" caret="190" scrollPosition="0|0" />
+      <File id="C2645C5A-2BEC-4E63-BEBB-6BF115831D0A/d:Controllers/f:AccountControllerTests.cs" caret="18146" scrollPosition="0|413" />
+      <File id="C2645C5A-2BEC-4E63-BEBB-6BF115831D0A/d:Helpers/f:ModelAssertions.cs" caret="193" scrollPosition="0|0" />
+      <File id="6E52BE98-37BD-4150-A375-CE7F3C5A2A19/d:Models/f:LoginModel.cs" caret="63" scrollPosition="0|0" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:Models/f:GenericBinder.cs" caret="220" scrollPosition="0|0" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/f:Global.asax.cs" caret="2027" scrollPosition="0|0" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:Controllers/f:AccountController.cs" caret="11013" scrollPosition="0|276" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:__RESHARPER__DummyWebPages_/f:Login.aspx" caret="227" scrollPosition="0|0" />
+      <File id="C2645C5A-2BEC-4E63-BEBB-6BF115831D0A/f:ValidationRunnerTests.cs" caret="4435" scrollPosition="0|19" />
+      <File id="C2645C5A-2BEC-4E63-BEBB-6BF115831D0A/d:Controllers/f:ContactControllerTests.cs" caret="966" scrollPosition="0|12" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="6E52BE98-37BD-4150-A375-CE7F3C5A2A19/d:InMemory/f:InMemoryTemplateRepository.cs" caret="1083" scrollPosition="0|0" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:Controllers/f:TemplateController.cs" caret="721" scrollPosition="0|3" />
+      <File id="098E3598-7C9C-438E-B1F3-67859325BA1F/d:InMemory/f:InMemoryTemplateService.cs" caret="872" scrollPosition="0|0" />
+      <File id="098E3598-7C9C-438E-B1F3-67859325BA1F/d:Interfaces/f:ITemplateService.cs" caret="305" scrollPosition="0|0" />
+      <File id="6E52BE98-37BD-4150-A375-CE7F3C5A2A19/d:Interfaces/f:ITemplateRepository.cs" caret="257" scrollPosition="0|0" />
+      <File id="6E52BE98-37BD-4150-A375-CE7F3C5A2A19/d:InMemory/f:InMemoryTemplateRepository.cs" caret="3194" scrollPosition="0|27" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:Controllers/f:TemplateController.cs" caret="1136" scrollPosition="0|18" />
+      <File id="C2645C5A-2BEC-4E63-BEBB-6BF115831D0A/d:Services/f:TemplateServiceTests.cs" caret="1417" scrollPosition="0|15" />
+      <File id="C2645C5A-2BEC-4E63-BEBB-6BF115831D0A/d:Controllers/f:TemplateControllerTests.cs" caret="1703" scrollPosition="0|19" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:__RESHARPER__DummyWebPages_/f:Create.aspx" caret="2430" scrollPosition="0|60" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:__RESHARPER__DummyWebPages_/f:Create.aspx" caret="3634" scrollPosition="0|60" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:__RESHARPER__DummyWebPages_/f:Create.aspx" caret="2836" scrollPosition="0|56" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:__RESHARPER__DummyWebPages_/f:Create.aspx" caret="4687" scrollPosition="0|97" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:Controllers/f:TemplateController.cs" caret="501" scrollPosition="0|0" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:__RESHARPER__DummyWebPages_/f:jquery.wysiwyg.js" caret="10625" scrollPosition="0|267" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:__RESHARPER__DummyWebPages_/f:jquery.wysiwyg.js" caret="3493" scrollPosition="0|79" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:__RESHARPER__DummyWebPages_/f:Create.aspx" caret="539" scrollPosition="0|0" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:__RESHARPER__DummyWebPages_/f:Create.aspx" caret="4150" scrollPosition="0|90" />
+      <File id="6E52BE98-37BD-4150-A375-CE7F3C5A2A19/d:InMemory/f:InMemoryTemplateRepository.cs" caret="2663" scrollPosition="0|43" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:__RESHARPER__DummyWebPages_/f:Create.aspx" caret="4641" scrollPosition="0|97" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:__RESHARPER__DummyWebPages_/f:Create.aspx" caret="4951" scrollPosition="0|100" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:__RESHARPER__DummyWebPages_/f:Create.aspx" caret="4343" scrollPosition="0|100" />
+      <File id="C2645C5A-2BEC-4E63-BEBB-6BF115831D0A/d:Helpers/f:ResultAssertions.cs" caret="2041" scrollPosition="0|9" />
+      <File id="C2645C5A-2BEC-4E63-BEBB-6BF115831D0A/d:Controllers/f:AccountControllerTests.cs" caret="1331" scrollPosition="0|22" />
+      <File id="098E3598-7C9C-438E-B1F3-67859325BA1F/d:Helpers/f:AppHelper.cs" caret="695" scrollPosition="0|0" />
+      <File id="C2645C5A-2BEC-4E63-BEBB-6BF115831D0A/d:Fakes/f:FakeMembershipProvider.cs" caret="190" scrollPosition="0|0" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:Controllers/f:AccountController.cs" caret="10458" scrollPosition="0|229" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:Controllers/f:AccountController.cs" caret="10738" scrollPosition="0|229" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/d:Controllers/f:AccountController.cs" caret="8512" scrollPosition="0|229" />
+      <File id="DC746B65-D800-4B53-AC0A-B4BB2AB486F4/f:Global.asax.cs" caret="2027" scrollPosition="0|41" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>

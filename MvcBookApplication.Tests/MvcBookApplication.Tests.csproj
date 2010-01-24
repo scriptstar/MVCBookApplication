@@ -1,0 +1,184 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C2645C5A-2BEC-4E63-BEBB-6BF115831D0A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MvcBookApplication.Tests</RootNamespace>
+    <AssemblyName>MvcBookApplication.Tests</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/MbUnit.MvcWebApplicationTestProjectTemplate.CSharp/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Gallio, Version=3.0.4.447, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_reference assemblies\Gallio.dll</HintPath>
+    </Reference>
+    <Reference Include="MbUnit, Version=3.0.4.447, Culture=neutral, PublicKeyToken=eb9cfa67ee6ab36e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_reference assemblies\MbUnit.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq, Version=3.0.108.5, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_reference assemblies\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Core, Version=1.1.3223.29589, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_reference assemblies\Ninject.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Routing">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\AccountControllerTests.cs" />
+    <Compile Include="Controllers\ContactControllerTests.cs" />
+    <Compile Include="Controllers\ContactListControllerTests.cs" />
+    <Compile Include="Controllers\GalleryControllerTests.cs" />
+    <Compile Include="Controllers\HelperTests.cs" />
+    <Compile Include="Controllers\MessageControllerTests.cs" />
+    <Compile Include="Controllers\PayControllerTests.cs" />
+    <Compile Include="Controllers\TemplateControllerTests.cs" />
+    <Compile Include="Controllers\TrackerControllerTests.cs" />
+    <Compile Include="Data\InMemoryRepositoryTests.cs" />
+    <Compile Include="Fakes\TestContactsImporter.cs" />
+    <Compile Include="Helpers\ModelAssertions.cs" />
+    <Compile Include="Helpers\ModelStateAssertions.cs" />
+    <Compile Include="Fakes\FakeMembershipProvider.cs" />
+    <Compile Include="Helpers\AppHelperTest.cs" />
+    <Compile Include="Helpers\ResultAssertions.cs" />
+    <Compile Include="Helpers\TempDataAssertions.cs" />
+    <Compile Include="Helpers\ViewDataAssertions.cs" />
+    <Compile Include="JQueryValidationGeneratorTests.cs" />
+    <Compile Include="MvcMockHelpers.cs" />
+    <Compile Include="MyMocks.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\ContactServiceTests.cs" />
+    <Compile Include="Services\MessageServiceTests.cs" />
+    <Compile Include="Services\ParserFactoryTests.cs" />
+    <Compile Include="Services\PayPalServiceTests.cs" />
+    <Compile Include="Services\StringParserTests.cs" />
+    <Compile Include="Services\TemplateServiceTests.cs" />
+    <Compile Include="Services\TextFileParserTests.cs" />
+    <Compile Include="ValidationRunnerTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MvcBookApplication.Data\MvcBookApplication.Data.csproj">
+      <Project>{6E52BE98-37BD-4150-A375-CE7F3C5A2A19}</Project>
+      <Name>MvcBookApplication.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MvcBookApplication.Services\MvcBookApplication.Services.csproj">
+      <Project>{098E3598-7C9C-438E-B1F3-67859325BA1F}</Project>
+      <Name>MvcBookApplication.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MvcBookApplication.Validation\MvcBookApplication.Validation.csproj">
+      <Project>{707CBE70-5410-4C56-9FCC-0B5C5C0B8B23}</Project>
+      <Name>MvcBookApplication.Validation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MvcBookApplication\MvcBookApplication.csproj">
+      <Project>{DC746B65-D800-4B53-AC0A-B4BB2AB486F4}</Project>
+      <Name>MvcBookApplication</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Freestyle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Big Wave.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fish.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

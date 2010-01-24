@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcBookApplication", "MvcBookApplication\MvcBookApplication.csproj", "{DC746B65-D800-4B53-AC0A-B4BB2AB486F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcBookApplication.Tests", "MvcBookApplication.Tests\MvcBookApplication.Tests.csproj", "{C2645C5A-2BEC-4E63-BEBB-6BF115831D0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcBookApplication.Data", "MvcBookApplication.Data\MvcBookApplication.Data.csproj", "{6E52BE98-37BD-4150-A375-CE7F3C5A2A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcBookApplication.Services", "MvcBookApplication.Services\MvcBookApplication.Services.csproj", "{098E3598-7C9C-438E-B1F3-67859325BA1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcBookApplication.Validation", "MvcBookApplication.Validation\MvcBookApplication.Validation.csproj", "{707CBE70-5410-4C56-9FCC-0B5C5C0B8B23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_reference assemblies", "_reference assemblies", "{7151294E-B837-4850-9072-D8228C3D6A3C}"
+	ProjectSection(SolutionItems) = preProject
+		_reference assemblies\Gallio.dll = _reference assemblies\Gallio.dll
+		_reference assemblies\Gallio.XmlSerializers.dll = _reference assemblies\Gallio.XmlSerializers.dll
+		_reference assemblies\MbUnit.dll = _reference assemblies\MbUnit.dll
+		_reference assemblies\Microsoft.Web.Mvc.dll = _reference assemblies\Microsoft.Web.Mvc.dll
+		_reference assemblies\Moq.dll = _reference assemblies\Moq.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC746B65-D800-4B53-AC0A-B4BB2AB486F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC746B65-D800-4B53-AC0A-B4BB2AB486F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC746B65-D800-4B53-AC0A-B4BB2AB486F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC746B65-D800-4B53-AC0A-B4BB2AB486F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2645C5A-2BEC-4E63-BEBB-6BF115831D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2645C5A-2BEC-4E63-BEBB-6BF115831D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2645C5A-2BEC-4E63-BEBB-6BF115831D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2645C5A-2BEC-4E63-BEBB-6BF115831D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E52BE98-37BD-4150-A375-CE7F3C5A2A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E52BE98-37BD-4150-A375-CE7F3C5A2A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E52BE98-37BD-4150-A375-CE7F3C5A2A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E52BE98-37BD-4150-A375-CE7F3C5A2A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{098E3598-7C9C-438E-B1F3-67859325BA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{098E3598-7C9C-438E-B1F3-67859325BA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{098E3598-7C9C-438E-B1F3-67859325BA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{098E3598-7C9C-438E-B1F3-67859325BA1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{707CBE70-5410-4C56-9FCC-0B5C5C0B8B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{707CBE70-5410-4C56-9FCC-0B5C5C0B8B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{707CBE70-5410-4C56-9FCC-0B5C5C0B8B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{707CBE70-5410-4C56-9FCC-0B5C5C0B8B23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
